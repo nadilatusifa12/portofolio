@@ -14,6 +14,15 @@
   --text-color-opacity: rgba(255, 255, 255, 0.5);
 }
 
+.img-round {
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 .container {
   width: 80%;
   margin-inline: auto;
@@ -398,6 +407,24 @@
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
 }
+
+.skills .skills-box .box .qa-skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skills .skills-box .box .qa-skills div{
+  padding: 10px 20px 10px 20px;
+  background-color: #b819b8;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
 .skills .skills-box .box .design-skills{
   display: flex;
   flex-wrap: wrap;
